@@ -3,7 +3,7 @@ local Window = Library:CreateWindow("Synapse X Hub Update", Vector2.new(492, 598
 local AimingTab = Window:CreateTab("Main")
 
 
-local testSection = AimingTab:CreateSector("Script Free Exploit", "T")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local testSection = AimingTab:CreateSector("Script Free Exploit", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddButton("Inf Yield", function(ClientLol)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
