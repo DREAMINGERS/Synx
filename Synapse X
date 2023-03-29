@@ -35,7 +35,7 @@ testSection:AddButton("Zaque Hub", function(ClientLol)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
 end)
 
-local testSection = AimingTab:CreateSector("Doors Hub + Crucifix", "T")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local testSection = AimingTab:CreateSector("Doors Hub + Crucifix", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddButton("Shadows Hub", function(ClientLol)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/DOORS/Loader52.lua'))()
@@ -52,7 +52,7 @@ end)
 local AimingTab = Window:CreateTab("Obby Leady") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
 
 
-local testSection = AimingTab:CreateSector("Obby Leader", "T")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local testSection = AimingTab:CreateSector("Obby Leader", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddButton("Kohler Hub", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/Y01QqSCJ", true))()
@@ -61,7 +61,7 @@ end)
 local AimingTab = Window:CreateTab("Anti Cheat") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
 
 
-local testSection = AimingTab:CreateSector("Bypass Kick + anti Cheat", "T")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local testSection = AimingTab:CreateSector("Bypass Kick + anti Cheat", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddButton("Anti Cheat 1", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/tPSRRaM5", true))()
