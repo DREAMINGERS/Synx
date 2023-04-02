@@ -76,6 +76,6 @@ local AimingTab = Window:CreateTab("Doors Super Hard")
 
 local testSection = AimingTab:CreateSector("Disable Greed", "left") 
 
-testSection:AddButton("", function(ClientLol)
+testSection:AddButton("Remove Greed", function(ClientLol)
     loadstring(game:HttpGet("https://pastebin.com/raw/LQV1Ei3h", true))()
 end)
